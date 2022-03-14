@@ -1,7 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const dbConnect = require("./config/dbConnect");
-
+const { registerUser } = require("./controllers/users/usercntrl");
 const { errorHandler, notFound } = require("./middlewares/errorMiddleware");
 const userRoute = require("./routes/users/usersRoute");
 
