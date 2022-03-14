@@ -3,8 +3,7 @@
  
 const mongoose = require("mongoose"); 
 
-//Pd2biO8lXliu9b0G
-//mongodb+srv://admin:<password>@expenses.lvagn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
 
 const dbConnect = async () => {
     try {
