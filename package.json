@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node src/server.js",
-    "watch": "nodemon src/server.js"
+    "test": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
